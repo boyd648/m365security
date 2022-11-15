@@ -56,6 +56,14 @@
 <b>VISIT WEBSITE</b>
 <a href="https://www.gitbit.org">https://www.gitbit.org</a>
 </main>
+<div style="max-width:1000px; margin: auto; padding:.67em">
+  <h1>Read more articles</h1>
+  <ul>
+    <% for (var i=0; i < pages.length;  i++ ) { %>
+      <ul><a href="https://boyd648.github.io/m365security/<%- pages[i].canonical %>"><%= pages[i].title %></a></ul>
+    <% } %>
+  </ul>
+</div>
 <footer style="max-width:1000px; margin: auto; padding:.67em">
   Share this site!
   <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
