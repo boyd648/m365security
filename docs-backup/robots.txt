@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow:
+
+User-agent: *
+Allow: /
+
+Sitemap: https://boyd648.github.io/m365security/assets/sitemap.xml
