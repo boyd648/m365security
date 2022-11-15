@@ -3,8 +3,8 @@ module.exports = {
   description: 'Verify your Microsoft 365 tenant is secure. Our Cybersecurity guide will help you secure it!',
   canonical: '',
   ogImage: 'facebook-Walking-path.jpeg',
-  body: `<h1>The Best Reasons To Get Your Microsoft 365 Security Administrator Certificate</h1>
-  <img class="title" src="https://boyd648.github.io/m365security/assets/imgs/Walking-path.jpg" alt="Women walking down a path" width=1920 height=1280/>
+  titleimg: 'assets/imgs/Walking-path.jpg',
+  body: `
   <p>In today’s tech-driven world, it’s important to stay on top of your game. Staying on top of things can be difficult as technology continues to advance at lightning speed. At any given moment, there may be a new app or device that comes out and changes everything. If you want to keep pace with the constant stream of new technologies, you need to make sure you are keeping up. One great way to do that is by getting your <a href="https://www.gitbit.org">Microsoft 365 Security Administrator certification</a>. An MCSA certification will give you an edge in the job market and help you stand out from other job applicants. It also shows potential employers that you have taken the time to get certified in something related to computers and IT – which makes it harder for people without a certification. To learn more about why getting your MCS-A certificate is so beneficial, keep reading!</p>
 
   <h2>What is the Microsoft 365 Security Administrator Certification?</h2>
