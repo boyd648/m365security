@@ -1,7 +1,7 @@
 module.exports = {
   title: '4 Security Features to Consider for Microsoft 365',
   description: "Today's businesses face digital threats from everywhere. Is your Microsoft 365 tenant secure?",
-  canonical: '4-Security-Features-to-Consider-for-Microsoft-365.html',
+  canonical: '4-Security-Features-to-Consider-for-Microsoft-365',
   ogImage: 'facebook-security.jpeg',
   titleimg: 'assets/imgs/security.jpg',
   body: `<p>‍Today, businesses face digital threats on an almost constant basis. Whether it’s hackers trying to steal customer data, phishing schemes designed to trick employees into giving up sensitive information or another malicious attack, enterprises must be ready to respond and recover from any threat. Regardless of whether you use Microsoft as your primary productivity suite or just one of its many services, you should take security features into account when evaluating new software. In this blog post, we’ll introduce you to the benefits of Microsoft 365 for business users and describe some of its security features in detail. Read on to learn more about the different security features offered by Microsoft 365 and how they can help protect your business from cyber threats.</p>

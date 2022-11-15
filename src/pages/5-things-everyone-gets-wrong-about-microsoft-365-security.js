@@ -1,7 +1,7 @@
 module.exports = {
   title: '5 Things Everyone Gets Wrong About Microsoft 365 Security',
   description: 'Microsoft 365 is a comprehensive cloud productivity suite that includes many different apps, services and features. Some of these are fairly well known among users and businesses but securing them is not the most obvioius',
-  canonical: '5-things-everyone-gets-wrong-about-microsoft-365-security.html',
+  canonical: '5-things-everyone-gets-wrong-about-microsoft-365-security',
   ogImage: 'facebook-hacking.jpeg',
   titleimg: 'assets/imgs/hacking.jpg',
   body: `<p>Microsoft 365 is a comprehensive cloud productivity suite that includes many different apps, services and features. Some of these are fairly well known among users and businesses; others are hidden away in sub-menus or aren't accessible unless you know about them via a support agent or trial. Microsoft 365 security is one of those features. Though it doesn't get much publicity, it's one of the most important parts of MS 365 security and can significantly reduce the risk of attacks on your organization. It may be complicated, but there are lots of things you should know about Microsoft 365 security to keep your business safe from cyber attacks.</p>
