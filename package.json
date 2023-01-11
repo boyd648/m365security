@@ -1,6 +1,6 @@
 {
   "name": "m365security",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Microsoft 365 security",
   "main": "index.js",
   "scripts": {
