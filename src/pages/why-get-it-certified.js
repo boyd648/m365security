@@ -12,7 +12,7 @@ module.exports = {
   <p>In addition to the benefits to your career and earning potential, obtaining IT certifications can also have a positive impact on the organization where you work. When you earn a certification, you gain new knowledge and skills that can be applied to your job. This can help your organization to improve its IT infrastructure and operations, and can ultimately lead to increased productivity and revenue growth.</p>
   <p>There are also many different types of IT certifications available, making it easy to find one that aligns with your career goals and interests. Some popular certifications include:</p>
   <ul>
-    <li>Microsoft Certified Security Administrator</li>
+    <li><a href="https://www.gitbit.org/course/ms-500/learn/Whats-in-this-course-cpchjBLkC">Microsoft Certified Security Administrator</a></li>
     <li>Cisco Certified Network Associate (CCNA)</li>
     <li>CompTIA A+</li>
     <li>Certified Information Systems Security Professional (CISSP)</li>
