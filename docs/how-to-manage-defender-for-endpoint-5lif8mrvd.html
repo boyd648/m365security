@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><%- title %></title>
+  <title>0 to hero - the ultimate Microsoft Defender for Endpoint (MDE) guide</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="description" content="<%- description %>">
+  <meta name="description" content="Microsoft Defender for Endpoint is an endpoint security solution developed by Microsoft. It is part of the Microsoft 365 suite of tools and supplies real-time protection against malware, ransomware, and other threats on endpoints, such as PCs, laptops, and servers.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="7fK92N4cji1gv8NLXaKX-ryv7IvO6PyLxteu5ZeMqGA" />
-  <% if (locals.redirect) { %>
-  <link rel="canonical" href="<%- redirect %>">
-  <% } else { %>
-  <link rel="canonical" href="https://boyd648.github.io/m365security/<%- canonical %>">
-  <% } %>
-  <meta property="og:title" content="<%- title %>">
-  <meta property="og:description" content="<%- description %>">
-  <meta property="og:image" content="https://boyd648.github.io/m365security/assets/imgs/<%- ogImage %>">
-  <meta property="og:url" content="https://boyd648.github.io/m365security/<%- canonical %>">
-  <meta name="twitter:title" content="<%- title %>">
-  <meta name="twitter:description" content="<%- description %>">
-  <meta name="twitter:url" content="https://boyd648.github.io/m365security/<%- canonical %>">
+  
+  <link rel="canonical" href="https://www.gitbit.org/course/ms-500/blog/how-to-manage-defender-for-endpoint-5lif8mrvd">
+  
+  <meta property="og:title" content="0 to hero - the ultimate Microsoft Defender for Endpoint (MDE) guide">
+  <meta property="og:description" content="Microsoft Defender for Endpoint is an endpoint security solution developed by Microsoft. It is part of the Microsoft 365 suite of tools and supplies real-time protection against malware, ransomware, and other threats on endpoints, such as PCs, laptops, and servers.">
+  <meta property="og:image" content="https://boyd648.github.io/m365security/assets/imgs/facebook-Walking-path.jpeg">
+  <meta property="og:url" content="https://boyd648.github.io/m365security/how-to-manage-defender-for-endpoint-5lif8mrvd">
+  <meta name="twitter:title" content="0 to hero - the ultimate Microsoft Defender for Endpoint (MDE) guide">
+  <meta name="twitter:description" content="Microsoft Defender for Endpoint is an endpoint security solution developed by Microsoft. It is part of the Microsoft 365 suite of tools and supplies real-time protection against malware, ransomware, and other threats on endpoints, such as PCs, laptops, and servers.">
+  <meta name="twitter:url" content="https://boyd648.github.io/m365security/how-to-manage-defender-for-endpoint-5lif8mrvd">
   <meta name="twitter:card" content="summary">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/m365security/assets/apple-touch-icon.png">
@@ -26,9 +24,9 @@
   <link rel="manifest" href="/m365security/assets/site.webmanifest">
   <link rel="mask-icon" href="/m365security/assets/safari-pinned-tab.svg" color="#ca3433">
   <link rel="shortcut icon" href="/m365security/assets/favicon.ico">
-  <% if (locals.redirect) { %>
-  <meta http-equiv="refresh" content="0; url=<%- redirect %>">
-  <% } %>
+  
+  <meta http-equiv="refresh" content="0; url=https://www.gitbit.org/course/ms-500/blog/how-to-manage-defender-for-endpoint-5lif8mrvd">
+  
   <meta name="msapplication-TileColor" content="#ca3433">
   <meta name="msapplication-config" content="/m365security/assets/browserconfig.xml">
   <meta name="theme-color" content="#ca3433">
@@ -36,7 +34,7 @@
   <style>
     img {max-width: 100%;}
     .title-container {height: calc(100vh - 50px);}
-    .title-h1 {color:white;background-image: url(<%- titleimg %>); position: absolute; left: 0; right: 0; height: calc(100vh - 50px); margin: 0; display: flex; justify-content: center; text-shadow: 0 0 20px #000; align-items: center;}
+    .title-h1 {color:white;background-image: url(assets/imgs/Walking-path.jpg); position: absolute; left: 0; right: 0; height: calc(100vh - 50px); margin: 0; display: flex; justify-content: center; text-shadow: 0 0 20px #000; align-items: center;}
   </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5JBDZJL5P"></script>
@@ -60,20 +58,30 @@
     </div>
   </nav>
 <main style="max-width:1000px; margin: auto; padding:0 .67em">
-  <div class="title-container"><h1 class="title-h1"><%- title %></h1></div>
-  <%- body %>
-  <% if (locals.redirect) { %>
-    <script>window.location.replace("<%- redirect %>");</script>
-  <% } %>
+  <div class="title-container"><h1 class="title-h1">0 to hero - the ultimate Microsoft Defender for Endpoint (MDE) guide</h1></div>
+  <h1>0 to hero - the ultimate Microsoft Defender for Endpoint (MDE) guide</h1>
+  <p>Microsoft Defender for Endpoint is an endpoint security solution developed by Microsoft. It is part of the Microsoft 365 suite of tools and supplies real-time protection against malware, ransomware, and other threats on endpoints, such as PCs, laptops, and servers.</p>
+  <p>To learn more go to <a href="https://www.gitbit.org/course/ms-500/blog/how-to-manage-defender-for-endpoint-5lif8mrvd">0 to hero - the ultimate Microsoft Defender for Endpoint (MDE) guide</a>
+  
+    <script>window.location.replace("https://www.gitbit.org/course/ms-500/blog/how-to-manage-defender-for-endpoint-5lif8mrvd");</script>
+  
 <b>VISIT WEBSITE</b>
 <a href="https://www.gitbit.org">https://www.gitbit.org</a>
 </main>
 <div style="max-width:1000px; margin: auto; padding:.67em">
   <h1>Read more articles</h1>
   <ul>
-    <% for (var i=0; i < pages.length;  i++ ) { %>
-      <li><a href="https://boyd648.github.io/m365security/<%- pages[i].canonical %>"><%= pages[i].title %></a></li>
-    <% } %>
+    
+      <li><a href="https://boyd648.github.io/m365security/4-Security-Features-to-Consider-for-Microsoft-365">4 Security Features to Consider for Microsoft 365</a></li>
+    
+      <li><a href="https://boyd648.github.io/m365security/5-things-everyone-gets-wrong-about-microsoft-365-security">5 Things Everyone Gets Wrong About Microsoft 365 Security</a></li>
+    
+      <li><a href="https://boyd648.github.io/m365security/cybersecurity-job">How to Get a Job in Cybersecurity: 6 Ways to Ensure Your Success</a></li>
+    
+      <li><a href="https://boyd648.github.io/m365security/">M365 Security: Learn how to secure your Microsoft 365 tenant</a></li>
+    
+      <li><a href="https://boyd648.github.io/m365security/why-get-it-certified">why get your IT certification</a></li>
+    
   </ul>
 </div>
 <footer style="max-width:1000px; margin: auto; padding:.67em">
